@@ -160,6 +160,7 @@
 <text x="80.8" y="8.6" size="1.016" layer="16" font="vector" ratio="25" rot="MR0" align="center">S3</text>
 <text x="17" y="8.7" size="1.016" layer="16" font="vector" ratio="25" rot="MR0" align="center">S4</text>
 <text x="83.2" y="8.6" size="1.016" layer="16" font="vector" ratio="25" rot="MR0" align="center">A3</text>
+<text x="29.1" y="82.9" size="1.778" layer="1">test'</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
