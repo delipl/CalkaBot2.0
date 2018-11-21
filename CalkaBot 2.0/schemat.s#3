@@ -21444,9 +21444,12 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="SW1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<<<<<<< HEAD
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
+=======
+>>>>>>> origin/infa
 </parts>
 <sheets>
 <sheet>
@@ -21556,7 +21559,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="SW1" gate="G$1" x="68.58" y="101.6" rot="R180"/>
 <instance part="JP2" gate="A" x="-119.38" y="25.4" rot="R270"/>
 <instance part="JP3" gate="A" x="-119.38" y="15.24" rot="R270"/>
+<<<<<<< HEAD
 <instance part="X_1" gate="G$1" x="121.92" y="101.6" rot="R90"/>
+=======
+>>>>>>> origin/infa
 </instances>
 <busses>
 <bus name="B$1">
