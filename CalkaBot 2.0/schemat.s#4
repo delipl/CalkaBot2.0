@@ -21552,11 +21552,17 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </segment>
 <segment>
 <wire x1="74.168" y1="74.168" x2="70.866" y2="74.168" width="0.1524" layer="91"/>
-<wire x1="70.866" y1="74.168" x2="70.866" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="70.866" y1="73.66" x2="70.866" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="70.866" y1="74.168" x2="70.866" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="74.168" y1="76.708" x2="70.866" y2="76.708" width="0.1524" layer="91"/>
 <wire x1="70.866" y1="76.708" x2="70.866" y2="74.168" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="PGND1"/>
+<wire x1="74.22" y1="76.7" x2="70.866" y2="76.7" width="0.1524" layer="91"/>
+<wire x1="70.866" y1="76.7" x2="70.866" y2="72.39" width="0.1524" layer="91"/>
+<junction x="70.866" y="72.39"/>
+<pinref part="IC1" gate="G$1" pin="PGND1'"/>
+<wire x1="74.22" y1="74.16" x2="70.866" y2="74.16" width="0.1524" layer="91"/>
+<wire x1="70.866" y1="74.16" x2="70.866" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-93.08" y1="-5.334" x2="-103.632" y2="-5.334" width="0.1524" layer="91"/>
@@ -21643,12 +21649,14 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PGND2"/>
-<wire x1="74.22" y1="53.84" x2="68.58" y2="53.84" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="53.84" x2="68.58" y2="51.3" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PGND2'"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="74.22" y1="51.3" x2="68.58" y2="51.3" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="51.3" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="74.22" y1="53.84" x2="68.58" y2="53.84" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="51.3" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<junction x="68.58" y="48.26"/>
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>

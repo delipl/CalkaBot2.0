@@ -21969,10 +21969,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-13.208" y="-0.508"/>
 <label x="-12.7" y="0" size="1.778" layer="95" xref="yes"/>
 <junction x="-29.718" y="-0.508"/>
+<pinref part="SW2" gate="A" pin="5"/>
 <wire x1="-29.718" y1="-0.508" x2="-27.94" y2="-0.508" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="A" pin="6"/>
-<wire x1="-29.718" y1="-0.508" x2="-30.48" y2="-0.508" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-0.508" x2="-30.48" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-0.508" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -21989,11 +21988,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="42.672" y="-0.508"/>
 <label x="43.18" y="0" size="1.778" layer="95" xref="yes"/>
 <wire x1="26.162" y1="-0.508" x2="25.4" y2="-0.508" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-0.508" x2="25.4" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="26.162" y="-0.508"/>
-<wire x1="26.162" y1="-0.508" x2="26.162" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="26.162" y1="-5.08" x2="-27.94" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="A" pin="5"/>
-<wire x1="-27.94" y1="-5.08" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-5.08" x2="-30.48" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="A" pin="6"/>
+<wire x1="-30.48" y1="-10.16" x2="-30.48" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I/O11" class="0">
@@ -22847,6 +22846,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="63.5" y1="46.22" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 <junction x="74.22" y="46.22"/>
 <label x="63.5" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<wire x1="-29.58" y1="-5.334" x2="-29.718" y2="-5.334" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
