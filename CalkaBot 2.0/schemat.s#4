@@ -21367,8 +21367,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-84.074" y1="106.426" x2="-83.058" y2="106.426" width="0.1524" layer="91"/>
 <wire x1="-83.058" y1="106.426" x2="-83.058" y2="111.252" width="0.1524" layer="91"/>
-<wire x1="-82.92" y1="106.426" x2="-84.074" y2="106.426" width="0.1524" layer="91"/>
 <junction x="-84.074" y="106.426"/>
+<pinref part="RESETBUTTON" gate="G$1" pin="1"/>
+<wire x1="-82.92" y1="101.5" x2="-82.92" y2="106.426" width="0.1524" layer="91"/>
+<wire x1="-82.92" y1="106.426" x2="-84.074" y2="106.426" width="0.1524" layer="91"/>
+<wire x1="-82.92" y1="101.5" x2="-82.92" y2="111.252" width="0.1524" layer="91"/>
+<wire x1="-82.92" y1="111.252" x2="-83.058" y2="111.252" width="0.1524" layer="91"/>
+<junction x="-82.92" y="101.5"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -21487,8 +21492,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-91.694" y1="106.426" x2="-103.632" y2="106.426" width="0.1524" layer="91"/>
 <junction x="-103.632" y="106.426"/>
 <label x="-109.982" y="106.426" size="1.778" layer="95"/>
-<wire x1="-93.08" y1="106.426" x2="-91.694" y2="106.426" width="0.1524" layer="91"/>
 <junction x="-91.694" y="106.426"/>
+<pinref part="RESETBUTTON" gate="G$1" pin="2"/>
+<wire x1="-93.08" y1="101.5" x2="-93.08" y2="106.426" width="0.1524" layer="91"/>
+<wire x1="-93.08" y1="106.426" x2="-91.694" y2="106.426" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -22558,6 +22565,50 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="60.96" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="55.88" y="101.6"/>
 <label x="55.88" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AO1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="AO1"/>
+<pinref part="IC1" gate="G$1" pin="AO1'"/>
+<wire x1="74.22" y1="84.32" x2="74.22" y2="81.78" width="0.1524" layer="91"/>
+<wire x1="74.22" y1="84.32" x2="68.58" y2="84.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="84.32" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<junction x="74.22" y="84.32"/>
+<label x="68.58" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AO2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="AO2"/>
+<pinref part="IC1" gate="G$1" pin="AO2'"/>
+<wire x1="74.22" y1="69.08" x2="74.22" y2="66.54" width="0.1524" layer="91"/>
+<wire x1="74.22" y1="69.08" x2="66.04" y2="69.08" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="69.08" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<junction x="74.22" y="69.08"/>
+<label x="66.04" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BO2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="BO2"/>
+<pinref part="IC1" gate="G$1" pin="BO2'"/>
+<wire x1="74.22" y1="61.46" x2="74.22" y2="58.92" width="0.1524" layer="91"/>
+<wire x1="74.22" y1="61.46" x2="66.04" y2="61.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="61.46" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+<junction x="74.22" y="61.46"/>
+<label x="66.04" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BO1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="BO1'"/>
+<pinref part="IC1" gate="G$1" pin="BO1"/>
+<wire x1="74.22" y1="46.22" x2="74.22" y2="43.68" width="0.1524" layer="91"/>
+<wire x1="74.22" y1="46.22" x2="63.5" y2="46.22" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="46.22" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
+<junction x="74.22" y="46.22"/>
+<label x="63.5" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

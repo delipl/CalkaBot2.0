@@ -21615,11 +21615,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="43.18" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="I/O11" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PE6(INT.6/AIN0)"/>
 <wire x1="15.4" y1="84.86" x2="21.336" y2="84.86" width="0.1524" layer="91"/>
 <wire x1="21.336" y1="84.86" x2="21.336" y2="84.836" width="0.1524" layer="91"/>
+<wire x1="15.4" y1="84.86" x2="25.4" y2="84.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="84.86" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
+<junction x="15.4" y="84.86"/>
+<junction x="25.4" y="86.36"/>
+<label x="25.4" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMA" class="0">
@@ -21654,7 +21659,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="24.384" y="77.216" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="X" class="0">
+<net name="I/O12" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
 <wire x1="15.4" y1="72.16" x2="20.828" y2="72.16" width="0.1524" layer="91"/>
@@ -22219,7 +22224,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="217.58" y1="25.8" x2="217.58" y2="25.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="XX" class="0">
+<net name="I/O9" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
 <wire x1="15.4" y1="41.68" x2="21.58" y2="41.68" width="0.1524" layer="91"/>
@@ -22228,7 +22233,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="25.2" y="41.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="XXX" class="0">
+<net name="I/O8" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PD5(XCK/CTS)"/>
 <wire x1="15.4" y1="44.22" x2="21.82" y2="44.22" width="0.1524" layer="91"/>
@@ -22237,7 +22242,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="24.9" y="44.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="XXXX" class="0">
+<net name="I/O7" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
 <wire x1="15.4" y1="46.76" x2="21.16" y2="46.76" width="0.1524" layer="91"/>
@@ -22326,6 +22331,69 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="X1" gate="G$1" pin="4"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-144.78" y1="45.72" x2="-133.858" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="I/O1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF0(ADC0)"/>
+<wire x1="15.4" y1="105.18" x2="22.86" y2="105.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="105.18" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
+<junction x="22.86" y="106.68"/>
+<label x="22.86" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I/O2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF1(ADC1)"/>
+<wire x1="15.4" y1="102.64" x2="22.86" y2="102.64" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="102.64" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
+<junction x="22.86" y="104.14"/>
+<label x="22.86" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I/O3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF4(ADC4/TCK)"/>
+<wire x1="15.4" y1="100.1" x2="22.86" y2="100.1" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="100.1" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+<junction x="22.86" y="101.6"/>
+<label x="22.86" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I/O4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF5(ADC5/TMS)"/>
+<wire x1="15.4" y1="97.56" x2="22.86" y2="97.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="97.56" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
+<junction x="22.86" y="99.06"/>
+<label x="22.86" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I/O5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF6(ADC6/TDO)"/>
+<wire x1="15.4" y1="95.02" x2="22.86" y2="95.02" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="95.02" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
+<junction x="22.86" y="96.52"/>
+<label x="22.86" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I/O6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF7(ADC7(TDI)"/>
+<wire x1="15.4" y1="92.48" x2="22.86" y2="92.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="92.48" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
+<junction x="22.86" y="93.98"/>
+<label x="22.86" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I/O10" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PE2(!HWB)"/>
+<wire x1="15.4" y1="87.4" x2="25.4" y2="87.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="87.4" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+<junction x="25.4" y="88.9"/>
+<label x="25.4" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
