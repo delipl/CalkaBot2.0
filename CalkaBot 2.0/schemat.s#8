@@ -21017,6 +21017,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </devicesets>
 </library>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <library name="switch-tact (1)">
 <description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
 &lt;p&gt;&lt;ul&gt;
@@ -21088,6 +21089,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+=======
+>>>>>>> origin/infa
 =======
 >>>>>>> origin/infa
 </libraries>

@@ -21368,6 +21368,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-84.074" y1="106.426" x2="-83.058" y2="106.426" width="0.1524" layer="91"/>
 <wire x1="-83.058" y1="106.426" x2="-83.058" y2="111.252" width="0.1524" layer="91"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <junction x="-84.074" y="106.426"/>
 <pinref part="RESETBUTTON" gate="G$1" pin="1"/>
 <wire x1="-82.92" y1="101.5" x2="-82.92" y2="106.426" width="0.1524" layer="91"/>
@@ -21375,6 +21376,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-82.92" y1="101.5" x2="-82.92" y2="111.252" width="0.1524" layer="91"/>
 <wire x1="-82.92" y1="111.252" x2="-83.058" y2="111.252" width="0.1524" layer="91"/>
 <junction x="-82.92" y="101.5"/>
+=======
+<wire x1="-82.92" y1="106.426" x2="-84.074" y2="106.426" width="0.1524" layer="91"/>
+<junction x="-84.074" y="106.426"/>
+>>>>>>> origin/infa
 =======
 <wire x1="-82.92" y1="106.426" x2="-84.074" y2="106.426" width="0.1524" layer="91"/>
 <junction x="-84.074" y="106.426"/>
@@ -21498,6 +21503,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-103.632" y="106.426"/>
 <label x="-109.982" y="106.426" size="1.778" layer="95"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<wire x1="-93.08" y1="106.426" x2="-91.694" y2="106.426" width="0.1524" layer="91"/>
+>>>>>>> origin/infa
 =======
 <wire x1="-93.08" y1="106.426" x2="-91.694" y2="106.426" width="0.1524" layer="91"/>
 >>>>>>> origin/infa

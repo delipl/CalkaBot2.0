@@ -21453,8 +21453,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="SW1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="U$3" library="untitled" deviceset="GND" device=""/>
+=======
+<part name="SW2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-3" device="" package3d_urn="urn:adsk.eagle:package:26663/2"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+>>>>>>> origin/infa
 =======
 <part name="SW2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-3" device="" package3d_urn="urn:adsk.eagle:package:26663/2"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21565,8 +21570,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="SW1" gate="G$1" x="68.58" y="101.6" rot="R180"/>
 <instance part="JP2" gate="A" x="-119.38" y="25.4" rot="R270"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <instance part="JP3" gate="A" x="-119.38" y="15.24" rot="R270"/>
 <instance part="U$3" gate="G$1" x="-58.42" y="154.94"/>
+=======
+<instance part="SW2" gate="A" x="-27.94" y="-17.78" rot="R270"/>
+<instance part="GND22" gate="1" x="-27.94" y="-27.94"/>
+>>>>>>> origin/infa
 =======
 <instance part="SW2" gate="A" x="-27.94" y="-17.78" rot="R270"/>
 <instance part="GND22" gate="1" x="-27.94" y="-27.94"/>

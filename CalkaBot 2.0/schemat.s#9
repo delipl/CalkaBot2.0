@@ -21119,7 +21119,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-4X5,8" package3d_urn="urn:adsk.eagle:package:23474/1" value="1uF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <part name="SW1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
+=======
+>>>>>>> origin/infa
 =======
 >>>>>>> origin/infa
 </parts>
@@ -21229,7 +21232,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="C10" gate="G$1" x="-144.78" y="27.94" rot="R90"/>
 <instance part="GND21" gate="1" x="-132.08" y="22.86"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <instance part="SW1" gate="G$1" x="68.58" y="101.6" rot="R180"/>
+=======
+>>>>>>> origin/infa
 =======
 >>>>>>> origin/infa
 </instances>
@@ -22490,6 +22496,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="25.4" y="88.9"/>
 <label x="25.4" y="88.9" size="1.778" layer="95"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </segment>
 </net>
 <net name="PIN" class="0">
@@ -22504,6 +22511,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="60.96" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="55.88" y="101.6"/>
 <label x="55.88" y="101.6" size="1.778" layer="95"/>
+=======
+>>>>>>> origin/infa
 =======
 >>>>>>> origin/infa
 </segment>
